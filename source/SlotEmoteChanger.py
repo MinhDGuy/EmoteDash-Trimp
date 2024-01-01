@@ -2,7 +2,6 @@ import os
 
 file_path = 'source/EmoteTrimp_Origin.txt'
 
-# Kiểm tra xem tệp có tồn tại không
 if os.path.exists(file_path):
     with open(file_path, 'r') as file:
         content = file.read()
@@ -21,5 +20,4 @@ if os.path.exists(file_path):
 else:
     print("File not identified '{}'".format(file_path))
 
-# Chờ người dùng nhập bất kỳ ký tự nào để đóng chương trình
 input("Enter any character to close the program...")
