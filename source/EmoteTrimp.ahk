@@ -1,3 +1,5 @@
+#If WinActive("ahk_exe Tibia.exe")
+
 $g::
 	SendInput {f down} {f up}
 	Sleep 25
