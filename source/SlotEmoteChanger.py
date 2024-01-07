@@ -10,7 +10,7 @@ if os.path.exists(file_path):
     if n < 1 or n > 6:
         print("Invalid slot position.")
     else:
-        content = content.replace('#', str(n))
+        content = content.replace('@', str(n))
 
         new_file_path = 'source/EmoteTrimp.ahk'
         with open(new_file_path, 'w') as file:
